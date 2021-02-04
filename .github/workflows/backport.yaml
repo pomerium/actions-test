@@ -14,4 +14,4 @@ jobs:
         uses: tibdex/backport@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          title: "{{originalTitle}}"
+          title_template: "{{originalTitle}}"
